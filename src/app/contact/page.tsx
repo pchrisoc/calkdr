@@ -86,7 +86,7 @@ export default function Contact() {
             </Typography>
             <Typography variant="body1" color="text.secondary" paragraph>
               Have a question about Kappa Delta Rho or interested in joining the Lambda Chapter?
-              Fill out the form below, and we'll get back to you as soon as possible.
+              Fill out the form below, and we&apos;ll get back to you as soon as possible.
             </Typography>
 
             <Paper elevation={3} sx={{ p: 4, mt: 4 }}>

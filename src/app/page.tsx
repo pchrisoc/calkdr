@@ -119,7 +119,7 @@ export default function Home() {
                   Academic Excellence
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
-                  A commitment to scholastic achievement and supporting each other's academic pursuits.
+                  A commitment to scholastic achievement and supporting each other&apos;s academic pursuits.
                 </Typography>
               </CardContent>
             </Card>
@@ -189,7 +189,7 @@ export default function Home() {
             Interested in joining KDR?
           </Typography>
           <Typography variant="body1" sx={{ mb: 4, maxWidth: '600px', mx: 'auto' }}>
-            Whether you're looking to join a fraternity or just want to learn more about Kappa Delta Rho at Berkeley, we'd love to hear from you.
+            Whether you&apos;re looking to join a fraternity or just want to learn more about Kappa Delta Rho at Berkeley, we&apos;d love to hear from you.
           </Typography>
           <Button 
             variant="contained" 
