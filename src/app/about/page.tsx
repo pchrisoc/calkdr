@@ -137,7 +137,7 @@ export default function AboutKDR() {
                 </Box>
                 <Box sx={{ width: '50%' }}>
                   <Box sx={{ textAlign: 'center', p: 2 }}>
-                    <Typography variant="h4" color="primary">25,000+</</Typography>
+                    <Typography variant="h4" color="primary">25,000+</Typography>
                     <Typography variant="body2">Initiated Members</Typography>
                   </Box>
                 </Box>
