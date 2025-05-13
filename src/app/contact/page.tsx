@@ -212,7 +212,7 @@ export default function Contact() {
                 Interested in Joining?
               </Typography>
               <Typography variant="body1" paragraph>
-                If you're interested in becoming a brother of Kappa Delta Rho at UC Berkeley, we encourage you to reach out to our Recruitment Chair or visit during our Rush events.
+                If you&apos;re interested in becoming a brother of Kappa Delta Rho at UC Berkeley, we encourage you to reach out to our Recruitment Chair or visit during our Rush events.
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Our next Rush week starts on May 15, 2025. We look forward to meeting you!

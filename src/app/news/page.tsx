@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, Typography, Box, Card, CardContent, CardMedia, Divider, Chip, Button, Paper } from '@mui/material';
+import { Container, Typography, Box, Card, CardContent, Divider, Chip, Button, Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { AccessTime, Event, Person } from '@mui/icons-material';
 import { useRouter } from 'next/navigation';
@@ -118,7 +118,7 @@ export default function News() {
               Latest News
             </Typography>
 
-            {newsArticles.map((article, index) => (
+            {newsArticles.map((article) => (
               <Card key={article.id} sx={{ mb: 4, overflow: 'hidden', boxShadow: 2 }}>
                 <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' } }}>
                   <Box 

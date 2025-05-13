@@ -147,7 +147,7 @@ export default function Photos() {
 
         <Box sx={{ textAlign: 'center', my: 8, py: 4 }}>
           <Typography variant="body1" color="text.secondary">
-            These photos represent just a glimpse of our chapter's activities. 
+            These photos represent just a glimpse of our chapter&apos;s activities. 
             Follow us on social media for more current photos and event updates.
           </Typography>
         </Box>

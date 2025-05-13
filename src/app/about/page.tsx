@@ -1,7 +1,6 @@
 'use client';
 
-import { Container, Typography, Box, Paper, Divider, Card, CardContent, CardMedia } from '@mui/material';
-import { Timeline, TimelineItem, TimelineContent, TimelineSeparator, TimelineDot, TimelineConnector } from '@mui/lab';
+import { Container, Typography, Box, Paper, Divider, Card, CardContent } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 const PageHeader = styled(Box)(({ theme }) => ({
@@ -66,7 +65,7 @@ export default function AboutKDR() {
                     </Typography>
                     <Typography variant="body2">
                       Embrace the principles and spirit of the Kappa Delta Rho Gentleman, treating all those I encounter 
-                      with dignity and respect. Our motto "Honor Super Omnia" means that KDR encourages her members to be 
+                      with dignity and respect. Our motto &quot;Honor Super Omnia&quot; means that KDR encourages her members to be 
                       honorable men, to strive for the highest level of personal integrity, and to treat others with respect.
                     </Typography>
                   </CardContent>
@@ -94,7 +93,7 @@ export default function AboutKDR() {
                     </Typography>
                     <Typography variant="body2">
                       Meet all of my obligations to the Fraternity in a timely manner, so as to ensure that I am doing 
-                      my share and that I am not a burden to my brothers. I serve as my brothers' keeper, holding them 
+                      my share and that I am not a burden to my brothers. I serve as my brothers&apos; keeper, holding them 
                       accountable for their actions as they hold me accountable for mine.
                     </Typography>
                   </CardContent>
@@ -138,7 +137,7 @@ export default function AboutKDR() {
                 </Box>
                 <Box sx={{ width: '50%' }}>
                   <Box sx={{ textAlign: 'center', p: 2 }}>
-                    <Typography variant="h4" color="primary">25,000+</Typography>
+                    <Typography variant="h4" color="primary">25,000+</</Typography>
                     <Typography variant="body2">Initiated Members</Typography>
                   </Box>
                 </Box>

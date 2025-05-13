@@ -1,8 +1,7 @@
 'use client';
 
-import { Button, Container, Typography, Box, Card, CardContent, CardMedia, Divider, List, ListItem, ListItemText } from '@mui/material';
+import { Button, Container, Typography, Box, Card, CardContent, CardMedia, List, ListItem, ListItemText } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 const HeroSection = styled(Box)(({ theme }) => ({
@@ -210,7 +209,7 @@ export default function Home() {
           </Typography>
           <Box sx={{ bgcolor: 'grey.50', p: 4, borderRadius: 2, boxShadow: 1 }}>
             <Typography variant="body1" paragraph>
-              The Motto of Kappa Delta Rho is "Honor Super Omnia", and translated, it means Honor Above All Things. While this may seem like a heady concept, 
+              The Motto of Kappa Delta Rho is &quot;Honor Super Omnia&quot;, and translated, it means Honor Above All Things. While this may seem like a heady concept, 
               realistically it means that KDR encourages her members to be honorable men, to strive for the highest level of personal integrity, and to treat 
               others with respect.
             </Typography>
@@ -246,7 +245,7 @@ export default function Home() {
                   <ListItemText primary="• Engage in the service of mankind, not for the praise or recognition that such service may bring, but because it is the right thing to do;" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="• Serve as my brothers' keeper, holding them accountable for their actions as they hold me accountable for mine; and" />
+                  <ListItemText primary="• Serve as my brothers&apos; keeper, holding them accountable for their actions as they hold me accountable for mine; and" />
                 </ListItem>
                 <ListItem>
                   <ListItemText primary="• Support my Alma mater, that she may view Kappa Delta Rho as a partner in the development of her students." />

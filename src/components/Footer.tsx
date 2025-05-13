@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Container, Typography, Link, Grid, Divider, IconButton } from '@mui/material';
+import { Box, Container, Typography, Link, Divider, IconButton } from '@mui/material';
 import { Facebook, Instagram, Twitter, Email } from '@mui/icons-material';
 
 const Footer = () => {

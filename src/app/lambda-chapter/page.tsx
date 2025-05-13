@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, Typography, Box, Paper, Divider, Avatar, List, ListItem, ListItemText, ListItemAvatar, Card, CardContent } from '@mui/material';
+import { Container, Typography, Box, Paper, Divider, Avatar, List, ListItem, ListItemText, Card, CardContent } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import Image from 'next/image';
 
@@ -35,7 +35,7 @@ export default function LambdaChapter() {
             <Typography variant="body1" paragraph>
               In 1924, the Lambda Chapter received its charter from the National Fraternity of Kappa Delta Rho, 
               becoming the 11th chapter of KDR. Lambda was born out of the Delphic Club, a small local fraternity. 
-              Delphic's men realized that being part of a national fraternity had many advantages - most notably 
+              Delphic&apos;s men realized that being part of a national fraternity had many advantages - most notably 
               being supported at the national level and being able to connect with other members of KDR across the country.
             </Typography>
             <Typography variant="body1" paragraph>
@@ -100,7 +100,7 @@ export default function LambdaChapter() {
               </Box>
               <Typography variant="body1" paragraph>
                 Kappa Delta Rho is located at 2739 Channing Way, Berkeley, CA just two blocks from campus in the center 
-                of fraternity and sorority life. We're on the corner of Channing and Piedmont, with a big front lawn 
+                of fraternity and sorority life. We&apos;re on the corner of Channing and Piedmont, with a big front lawn 
                 right across from Channing circle (the big grass circle in the center of the intersection).
               </Typography>
               <Typography variant="body1" paragraph>
@@ -139,7 +139,7 @@ export default function LambdaChapter() {
               <Box sx={{ width: { xs: '100%', sm: 'calc(50% - 16px)', md: 'calc(33.33% - 16px)' } }}>
                 <Paper elevation={3} sx={{ p: 3, textAlign: 'center' }}>
                   <Avatar sx={{ width: 100, height: 100, mx: 'auto', mb: 2, bgcolor: 'primary.main' }}>PO</Avatar>
-                  <Typography variant="h6" gutterBottom>Patrick O'Connor</Typography>
+                  <Typography variant="h6" gutterBottom>Patrick O&apos;Connor</Typography>
                   <Typography variant="body2" color="text.secondary">Junior Tribune</Typography>
                 </Paper>
               </Box>
